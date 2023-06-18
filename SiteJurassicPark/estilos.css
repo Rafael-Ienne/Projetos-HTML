@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(1, 71, 1);
+    margin: 0px;
+    padding: 0px;
+}
+
+
+div#meuestilo1 {
+    background-image: url(jp_topoFundo.jpg);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.atalhos {
+    background-image: url(jp_menuFundo.jpg);
+    width: 400px;
+    text-align: center;
+    border-style:solid;
+    border-color: white;
+    border-radius: 20px 0px 20px 0px;
+    font-size: larger;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    color: white;
+
+    
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    top: 40px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Jurassic Park;
+    src: url(jp_fontJurassicPark.ttf);
+}
+
+@font-face {
+    font-family: Caviar Dreams;
+    src: url(CaviarDreams.ttf);
+}
+
+h1 {
+    font-family: Jurassic Park;
+    background-color: rgb(110, 9, 9);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+
+.secaowhite {
+    background-color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 250px;
+}
+
+.secaogray {
+    background-color: gray;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 0px;
+    height: 250px;
+}
+    
+
+.posterred {
+    border-style: solid;
+    border-color: red;
+    float: left; 
+    margin: 30px;
+    
+}
+
+.posteryellow {
+    border-style: solid;
+    border-color: yellow;
+    float: right; 
+    margin: 30px;
+    
+}
+
+
+p, h2 {
+    text-align: justify;
+    margin: 30px;
+    font-family:Caviar Dreams; 
+    font-weight: bold;
+}
+
+
+tr:nth-child(even) {
+    background-color: yellow;
+}
+
+tr:nth-child(odd) {
+    background-color: gray;
+}
+
+tr#titulo {
+    background-color: black;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    font-family: Caviar Dreams;
+    font-weight: bolder;
+}
+
+.secaopremios {
+    text-align: center;
+    color: white;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+}
+
+#centralizacaotabela {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#meuestilo2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    background-image: url(jp_topoFundo.jpg);
+    height: 50px;
+}
+
+.rodape {
+    text-align: center;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    color: white;
+    
+    position: relative;
+    top: 50%;
+}
+
