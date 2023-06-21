@@ -161,7 +161,7 @@ td {
     height: 50px;
 }
 
-.rodape {
+#rodape {
     text-align: center;
     font-family: Caviar Dreams;
     font-weight: bold;
@@ -171,3 +171,13 @@ td {
     top: 50%;
 }
 
+#criadordenome {
+    text-align: center;
+    font-family: Caviar Dreams;
+    color: white;
+    font-weight: bold;
+}
+
+#titulocriador{
+    text-align: center;
+}

@@ -7,8 +7,48 @@
     <meta name="description" content="Jurassic Park - saiba mais desse universo de Spielberg">
     <title>Jurassic Park - Fan Page</title>
     <link rel="stylesheet" href="estilos.css" type="text/css">
+    <script src="verificador.js"></script>
 </head>
 <body>
+
+    <script>
+
+        function criarnome() {
+
+            var silabainicialn1=document.forms["meu_form"].primeirasilaba1.value;
+
+            if(silabainicialn1=="") {
+                alert("Preencher o primeiro requisito corretamente");
+                return;
+            }
+
+            var silabafinaln1=document.forms["meu_form"].ultimasilaba1.value;
+
+            if(silabafinaln1=="") {
+                alert("Preencher o segundo requisito corretamente");
+                return;
+            }
+
+            var silabainicialn2=document.forms["meu_form"].primeirasilaba2.value;
+
+            if(silabainicialn2=="") {
+                alert("Preencher o terceiro requisito corretamente");
+                return;
+            }
+
+            var silabafinaln2=document.forms["meu_form"].ultimasilaba2.value;
+
+            if(silabafinaln2=="") {
+                alert("Preencher o quarto requisito corretamente");
+                return;
+            }
+
+            confirm("Deseja prosseguir com a operação?")
+            var nomefinal=silabainicialn1+silabafinaln1+silabainicialn2+silabafinaln2;
+            alert("O nome de dinossauro baseado no seu nome seria "+nomefinal+"sauro");
+        }
+
+    </script>
 
     <header>
         <div id="meuestilo1">
@@ -136,6 +176,33 @@
             </div>
         </article>
     </section>
+
+    <div id="criadordenome">
+        <section>
+            <article>
+                <header>
+                    <h2 id="titulocriador">CRIADOR DE NOME DE DINOSSAURO</h2><br>
+                </header>
+                <form method="get" action="?" name="meu_form">
+
+                    <label>Informe a primeira sílaba do seu nome:</label>
+                    <input type="text" name="primeirasilaba1"><br>
+
+                    <label>Informe a última sílaba do seu nome:</label>
+                    <input type="text" name="ultimasilaba1"><br>
+
+                    <label>Informe a primeira sílaba do seu sobrenome:</label>
+                    <input type="text" name="primeirasilaba2"><br>
+
+                    <label>Informe a última sílaba do seu sobrenome:</label>
+                    <input type="text" name="ultimasilaba2"><br>
+
+                    <input type="button" value="Criar nome de dinossauro" onclick="criarnome();">
+
+                </form>
+            </article>
+        </section>
+    </div>
     
     <br>
     <footer>
