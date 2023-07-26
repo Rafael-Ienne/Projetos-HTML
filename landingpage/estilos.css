@@ -1,0 +1,145 @@
+@font-face {
+    font-family: hand;
+    src: url('fonts/DancingScript-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: nunito;
+    src: url('fonts/NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf');
+}
+
+body {
+    font-style: normal;
+    background-color: #A6A6A6;
+    font-family: 'nunito';
+    overflow:hidden;
+    color: #402E26;
+
+}
+
+header#cabecalho {
+    width: 100%;
+    height: 80px;
+    background-color: #A6A6A6;
+    padding: 25px;
+}
+
+div#logo {
+    float: left;
+}
+
+a:visited,a:link {
+    color: #402E26;
+    font-style: normal;
+    text-decoration: wavy;
+    text-decoration: underline;
+}
+
+a {
+    text-align: center;
+    margin-left: 250px;
+    background-color: transparent;
+    width: 100px;
+    height: auto; 
+    color: #402E26;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #394934;
+    width: auto;
+    
+}
+
+strong.cursive{
+    font-family: 'hand';
+}
+
+#maintext {
+    width: 500px;
+    margin: auto;
+    text-align: justify;
+}
+
+#map {
+    position: relative;
+    left: 40px;
+    float: left;
+}
+
+#road {
+    position: relative;
+    right: 50px;
+    float: right;
+    padding: 0px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.39);
+    rotate: 10deg;
+}
+
+
+#bussola{
+    float: left;
+    margin-right: 10px;
+    
+}
+
+#c1 {
+    width: 33.33%;
+    padding: 10px;
+    float: right;
+    border-left-style: solid;
+    border-left-color: #394934;
+    border-left-width: 2px;
+}
+
+#txt1 {
+    text-align: justify;
+}
+
+
+#c2 {
+    padding: 10px;
+    width: 33.33%;
+    float: left;
+    border-right-style: solid;
+    border-right-color: #394934;
+    border-right-width: 2px;
+
+}
+
+
+#token {
+    float: left;
+    margin-right: 20px;
+}
+
+#community {
+    float: left;
+}
+
+#c3{
+    width: 33.33%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#botao{
+    background-color:#394934;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 45px;
+    color: white;
+    font-family: 'nunito';
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    border-style: solid;
+    border-color: #394934;
+    
+}
+
+
+
+
