@@ -1,0 +1,44 @@
+#about{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+}
+
+.about_left {
+    max-width: 40rem;
+    flex: 1;
+}
+
+.about_right {
+    flex: 1;
+    max-width: 66rem;
+    text-align: justify;
+    gap: 4rem;
+}
+
+.secondary_title {
+    font-size: 3rem;
+}
+
+.about_left li{
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+@media only screen and (max-width:768px ) {
+    #about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about .about_left {
+        max-width: 64rem;
+        text-align: center;
+    }
+
+    #about .about_right {
+        max-width: 64rem;
+        text-align: center;
+    }
+}
