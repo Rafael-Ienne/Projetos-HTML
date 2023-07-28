@@ -116,7 +116,7 @@ section#form .form_content .history .history_item2 input {
     margin-left: 40px;
 }
 
-#back,#next{
+.b{
     width: 200px;
     height: 40px;
     border-radius: 15px;
@@ -126,8 +126,12 @@ section#form .form_content .history .history_item2 input {
 }
 
 #back {
-    border-color: white;
+    border-color: rgba(0, 0, 0, 0.281);
     background-color: white;
+}
+
+button:hover{
+    text-decoration: underline;
 }
 
 #next{
