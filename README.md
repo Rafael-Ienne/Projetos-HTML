@@ -11,5 +11,5 @@
 
  <a href="https://rafael-ienne.github.io/projetos_html/site_jurassic_park/paginajurassic.html">Executar o projeto site_jurassic_park</a>
 
- <a href="https://rafael-ienne.github.io/projetos_html/cordel-moderno/index.html">Executar o projeto cordel-moderno</a>
+
 
