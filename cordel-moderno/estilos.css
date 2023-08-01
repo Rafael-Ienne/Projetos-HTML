@@ -16,13 +16,13 @@ header{
 }
 
 header>h1{
-    font-size: 7vw;
+    font-size: 5vw;
     font-family: 'Passion One', cursive;
     padding: 0px;
 }
 
 header>p{
-    font-size: 3vw;
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 40px;
 }
@@ -42,19 +42,19 @@ section{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .normal{
     font-family: 'Sriracha', cursive;
-    text-align: left;
 }
 
-.imagem>p{
+.imagem p{
     background-color: rgba(0, 0, 0, 0.459);
     color: white;
-    width: 400px;
     text-shadow: 2px 2px 1px black;
+    display: inline-block;
+    padding: 5px;
 }
 
 #joaninha{
@@ -70,9 +70,6 @@ section{
     background-attachment: fixed;
 }
 
-#joaninha p{
-    display: inline-block;
-}
 
 #livro{
     padding-top: 20px;
@@ -87,8 +84,9 @@ section{
     background-attachment: fixed;
 }
 
-#livro p{
+#livro .imagem p{
     display: inline-block;
+    padding: 5px;
 }
 
 footer{
