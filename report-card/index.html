@@ -12,11 +12,6 @@
         }
 
         table{
-            position: absolute;
-            left: 50%;
-            margin-left:-250px;
-            top: 50%;
-            margin-top: -274.5px;
             width: 500px;
             border-collapse: collapse;
 
@@ -48,73 +43,81 @@
         .media{
             text-align: left;
         }
+
+        #container{
+            overflow-x: auto;
+        }
     </style>
 </head>
 <body>
-    <table>
-        <caption>
-            Report Card
-        </caption>
-        <thead>
-            <tr>
-                <th rowspan="2" scope="col">Área</th>
-                <th rowspan="2" scope="col">Disciplinas</th>
-                <th colspan="2" scope="colgroup">Notas</th>
-                <th rowspan="2" scope="col">Média</th>
-            </tr>
-            <tr>
-                <th scope="col">Nota 1</th>
-                <th scope="col">Nota 2</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th rowspan="4" class="area" scope="rowgroup">Exatas</th>
-                <td>Matemática</td>
-                <td>10</td>
-                <td>10</td>
-                <td>10</td>
-            </tr>
-            <tr>
-                <td>Física</td>
-                <td>8</td>
-                <td>7</td>
-                <td>7.5</td>
-            </tr>
-            <tr>
-                <td>Química</td>
-                <td>8</td>
-                <td>10</td>
-                <td>9</td>
-            </tr>
-            <tr>
-                <td>Biologia</td>
-                <td>10</td>
-                <td>9</td>
-                <td>9.5</td>
-            </tr>
-            <tr>
-                <th colspan="4" class="media" scope="colgroup">Média de Exatas</th>
-                <th scope="row">9</th>
-            </tr>
-            <tr>
-                <th rowspan="2" class="area" scope="rowgroup">Humanas</th>
-                <td>História</td>
-                <td>10</td>
-                <td>10</td>
-                <td>10</td>
-            </tr>
-            <tr>
-                <td>Geografia</td>
-                <td>9</td>
-                <td>10</td>
-                <td>9.5</td>
-            </tr>
-            <tr>
-                <th colspan="4" class="media" scope="rowgroup">Média de humanas</th>
-                <th scope="row">9.25</th>
-            </tr>
-        </tbody>
-    </table>
+    <h1>Tabela responsiva</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur ipsa voluptatum, libero harum modi voluptates quisquam vel aperiam consequatur dolor fugiat nobis officiis cumque aut nemo quas quo soluta quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente porro officiis libero, ipsam doloribus nulla perspiciatis vitae ad, molestias error eos delectus soluta praesentium blanditiis id? Nam cum assumenda cupiditate. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, numquam vero veritatis ea accusamus, quibusdam, vitae nostrum corrupti itaque doloremque dolorum aspernatur quo libero. Eligendi a possimus illo consequuntur sequi.</p>
+    <div id="container">
+        <table>
+            <caption>
+                Report Card
+            </caption>
+            <thead>
+                <tr>
+                    <th rowspan="2" scope="col">Área</th>
+                    <th rowspan="2" scope="col">Disciplinas</th>
+                    <th colspan="2" scope="colgroup">Notas</th>
+                    <th rowspan="2" scope="col">Média</th>
+                </tr>
+                <tr>
+                    <th scope="col">Nota 1</th>
+                    <th scope="col">Nota 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="4" class="area" scope="rowgroup">Exatas</th>
+                    <td>Matemática</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Física</td>
+                    <td>8</td>
+                    <td>7</td>
+                    <td>7.5</td>
+                </tr>
+                <tr>
+                    <td>Química</td>
+                    <td>8</td>
+                    <td>10</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Biologia</td>
+                    <td>10</td>
+                    <td>9</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <th colspan="4" class="media" scope="colgroup">Média de Exatas</th>
+                    <th scope="row">9</th>
+                </tr>
+                <tr>
+                    <th rowspan="2" class="area" scope="rowgroup">Humanas</th>
+                    <td>História</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <th colspan="4" class="media" scope="rowgroup">Média de humanas</th>
+                    <th scope="row">9.25</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
