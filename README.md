@@ -13,3 +13,5 @@
 
 <a href="https://rafael-ienne.github.io/projetos_html/cordel-moderno/index.html">Executar o projeto cordel-moderno</a>
 
+<a href="https://rafael-ienne.github.io/projetos_html/report-card/index.html">Executar o projeto report-card</a>
+
