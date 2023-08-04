@@ -15,3 +15,5 @@
 
 <a href="https://rafael-ienne.github.io/projetos_html/report-card/index.html">Executar o projeto report-card</a>
 
+<a href="https://rafael-ienne.github.io/projetos_html/social-media-page/index.html">Executar o projeto social-media-page</a>
+
