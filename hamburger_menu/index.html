@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive website</title>
+    <link rel="stylesheet" href="estilos.css" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="queries.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickmenu()">
+            menu
+            </span>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Testando media queries</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam accusamus voluptates provident odit sit ex autem architecto officiis quia voluptas aliquam odio iste unde, ipsam laborum eveniet alias vitae possimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptatem voluptatum deleniti explicabo hic sed eaque et sequi, nulla esse numquam optio dolore nemo quae officia veritatis voluptatibus, doloribus dolorum?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam accusamus voluptates provident odit sit ex autem architecto officiis quia voluptas aliquam odio iste unde, ipsam laborum eveniet alias vitae possimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptatem voluptatum deleniti explicabo hic sed eaque et sequi, nulla esse numquam optio dolore nemo quae officia veritatis voluptatibus, doloribus dolorum?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam accusamus voluptates provident odit sit ex autem architecto officiis quia voluptas aliquam odio iste unde, ipsam laborum eveniet alias vitae possimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptatem voluptatum deleniti explicabo hic sed eaque et sequi, nulla esse numquam optio dolore nemo quae officia veritatis voluptatibus, doloribus dolorum?</p>
+        </article>
+    </main>
+    <script>
+        function clickmenu(){
+            if(menu.style.display=='block'){
+                menu.style.display='none';
+            } else{
+            menu.style.display='block'
+            }
+            }
+        
+    </script>
+</body>
+</html>
