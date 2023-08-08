@@ -17,5 +17,5 @@
 
 <a href="https://rafael-ienne.github.io/projetos_html/media_query_test/index.html">Executar o projeto media_query_test</a>
 
-<a href="https://rafael-ienne.github.io/projetos_html/hamburguer_menu/index.html">Executar o projeto hamburguer_menu</a>
+<a href="https://rafael-ienne.github.io/projetos_html/hamburger_menu/index.html">Executar o projeto hamburger_menu</a>
 
