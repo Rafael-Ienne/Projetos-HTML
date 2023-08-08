@@ -1,0 +1,70 @@
+/*Configurações para impressora*/
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    main{
+        color: black;
+        border: 1px solid black;
+    }
+    img#itablet{display: none;}
+    img#idesktop{display: none;}
+    img#iprinter{display: block;}
+    img#itv{display: none;}
+    img#iphone{display: none;}
+}
+
+/*Typical device breakpoints:
+
+Telas pequenas: até 600px;
+Celular: de 600px até 768px;
+Tablet: de 768px até 992px;
+Desktop: de 992px até 1200px;
+Telas grandes:acima de 1200px.
+*/
+
+/*Configuração para tablets*/
+@media screen and (min-width:768px) and (max-width:992px){
+    body{
+        background-image: url("imagens/back-tablet.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    img#itablet{display: block;}
+    img#idesktop{display: none;}
+    img#iprinter{display: none;}
+    img#itv{display: none;}
+    img#iphone{display: none;}
+}
+
+/*Configuração para desktop*/
+@media screen and (min-width:992px) and (max-width:1200px){
+    body{
+        background-image: url("imagens/back-pc.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    img#itablet{display: none;}
+    img#idesktop{display: block;}
+    img#iprinter{display: none;}
+    img#itv{display: none;}
+    img#iphone{display: none;}
+}
+
+/*Configuração para telas grandes*/
+@media screen and (min-width:1200px) {
+    body{
+        background-image: url("imagens/back-tv.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    img#itablet{display: none;}
+    img#idesktop{display: none;}
+    img#iprinter{display: none;}
+    img#itv{display: block;}
+    img#iphone{display: none;}
+}

@@ -17,3 +17,5 @@
 
 <a href="https://rafael-ienne.github.io/projetos_html/social-media-page/index.html">Executar o projeto social-media-page</a>
 
+<a href="https://rafael-ienne.github.io/projetos_html/media_query_test/index.html">Executar o projeto media_query_test</a>
+
