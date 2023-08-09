@@ -1,0 +1,93 @@
+/*Configuração para tablets*/
+
+@media screen and (min-width:768px) and (max-width:992px){
+    body,html{
+        background-image: linear-gradient(to bottom,#0455BF,#0477BF,#049DD9,#04B2D9,#4BE2F2);
+    }
+    
+    section{
+        margin-left: -375px;
+        margin-top: -150px;
+        width: 750px;
+        height: 300px;
+    }
+
+    #imagem{
+        border-radius: 20px 0px 0px 20px;
+        width: 354px;
+        height: 300px;
+        float: left;
+    }
+    
+    #formulario{
+        height: 300px;
+        width: 360px;
+        padding: 18px;
+        float: right;
+    }
+    
+    #formulario h1{
+        margin-bottom: 8px;
+    }
+    
+    #formulario p{
+        margin: 7px;
+    }
+    
+    form>p>input{
+        width: 90%;
+    }
+    
+    #sent{
+        width: 364px;
+    }
+
+    #forgpass{
+        width: 364px;
+        background-position: 235px 9px;
+    }
+    
+    
+}
+
+/*Configuração para desktops e outras telas maiores*/
+
+@media screen and (min-width:992px){
+    body,html{
+        background-image: linear-gradient(to bottom,#0455BF,#0477BF,#049DD9,#04B2D9,#4BE2F2);
+    }
+
+    section{
+        margin-left: -450px;
+        width: 900px;
+        height: 300px;
+        margin-top: -150px;
+    }
+
+    #imagem{
+        border-radius: 20px 0px 0px 20px;
+        width: 500px;
+        height: 300px;
+        float: left;
+    }
+
+    #formulario{
+        height: 300px;
+        width: 350px;
+        padding: 18px;
+        float: right;
+    }
+
+    #formulario h1{
+        margin-bottom: 2px;
+    }
+
+    #forgpass{
+        width: 350px;
+        background-position: 235px 9px;
+    }
+
+    form>p>input{
+        width: 90%;
+    }
+}

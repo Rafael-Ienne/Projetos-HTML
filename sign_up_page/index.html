@@ -3,37 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>Login page</title>
+    <!--CSS para telas pequenas-->
+    <link rel="stylesheet" href="estilos/estilos.css" media="all">
+    <!--CSS para outros tipos de telas-->
+    <link rel="stylesheet" href="estilos/media_queries.css">
+    <!--Link para email icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--Link para password icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--Link para forgot password icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <section id="mainpage">
-        <div id="imageleft">
-            <p id="mainphrase">Start to create wisely</p>
-        </div>
-        <div id="signspace">
-            <div id="things">
-                <p class="itemst">Get's started!</p>
-                <p class="itemss">Already have an account? <a href="#">Log in</a></p>
-                <button id="facebook"><img src="images/face.png" width="20px" height="20px" id="imageface"><span>Sign up with Facebook</span></button>
-                <button id="google"><img src="images/googl.webp" width="20px" height="20px" id="imagegoogle"><span>Sign up with Google</span></button>
-                <p >
-                    <label>E-mail address:</label><br>
-                    <input type="text">
-                </p>
-                <p>
-                    <label>Password:</label><br>
-                    <input type="text">
-                </p>
-                <p >
-                <input type="radio">I agree to plataphorm's Terms of Service and Privacy Policy
-                </p>
-                <p>
-                    <input type="button" value="Register" id="registerb" onmouseover="up()">
-                </p>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
             </div>
-        </div>
-    </section>
-    <script src="animations.js"></script>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a)! Faça o login para configurar seus dados na plataforma.</p>
+                <form action="#" method="post">
+                    <p>
+                        <label for="iemail"><span class="material-symbols-outlined">person</span></label>
+                        <input type="email" name="email" id="iemail" placeholder="seu email">
+                    </p>
+                    <p>
+                        <label for="ipass"><span class="material-symbols-outlined">key</span></label>
+                        <input type="password" name="pass" id="ipass" placeholder="sua senha">
+                    </p>
+                    <input type="submit" value="Enviar" id="sent"><br>
+                    <input type="submit" value="Esqueci a senha" id="forgpass">
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
