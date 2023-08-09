@@ -24,17 +24,17 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a)! Faça o login para configurar seus dados na plataforma.</p>
-                <form action="#" method="post">
+                <form action="#" method="post" autocomplete="on">
                     <p>
                         <label for="iemail"><span class="material-symbols-outlined">person</span></label>
-                        <input type="email" name="email" id="iemail" placeholder="seu email">
+                        <input type="email" name="email" id="iemail" placeholder="seu email" autocomplete="email" required>
                     </p>
                     <p>
                         <label for="ipass"><span class="material-symbols-outlined">key</span></label>
-                        <input type="password" name="pass" id="ipass" placeholder="sua senha">
+                        <input type="password" name="pass" id="ipass" placeholder="sua senha" autocomplete="current-password" required>
                     </p>
                     <input type="submit" value="Enviar" id="sent"><br>
-                    <input type="submit" value="Esqueci a senha" id="forgpass">
+                    <a href="esqueci.html" id="forgpass">Esqueci a senha</a>
                 </form>
             </div>
         </section>

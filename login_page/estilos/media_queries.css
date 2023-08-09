@@ -7,27 +7,28 @@
     
     section{
         margin-left: -375px;
-        margin-top: -150px;
+        margin-top: -200px;
         width: 750px;
-        height: 300px;
+        height: 400px;
     }
 
     #imagem{
         border-radius: 20px 0px 0px 20px;
-        width: 354px;
-        height: 300px;
+        width: 50%;
+        height: 100%;
         float: left;
     }
     
     #formulario{
-        height: 300px;
-        width: 360px;
+        margin-top: 35px;
+        height: 100%;
+        width: 330px;
         padding: 18px;
         float: right;
     }
     
     #formulario h1{
-        margin-bottom: 8px;
+        margin-bottom: 15px;
     }
     
     #formulario p{
@@ -35,16 +36,20 @@
     }
     
     form>p>input{
-        width: 90%;
+        width: 88%;
+    }
+
+    .material-symbols-outlined{
+        margin-right: 8px;
     }
     
     #sent{
-        width: 364px;
+        width: 100%;
     }
 
     #forgpass{
-        width: 364px;
-        background-position: 235px 9px;
+        width: 308px;
+        background-position: 232px 13px;
     }
     
     
@@ -60,34 +65,43 @@
     section{
         margin-left: -450px;
         width: 900px;
-        height: 300px;
-        margin-top: -150px;
+        height: 400px;
+        margin-top: -200px;
     }
 
     #imagem{
-        border-radius: 20px 0px 0px 20px;
-        width: 500px;
-        height: 300px;
-        float: left;
+        float: right;
+        border-radius: 0px 20px 20px 0px;
+        width: 55%;
+        height: 100%;
     }
 
     #formulario{
+        float: left;
+        margin-top: 30px;
         height: 300px;
         width: 350px;
-        padding: 18px;
-        float: right;
+        padding: 20px;
+    
     }
 
     #formulario h1{
-        margin-bottom: 2px;
+        text-align: left;
+        margin-bottom: 4px;
     }
 
     #forgpass{
-        width: 350px;
+        display: block;
+        width: 327px;
         background-position: 235px 9px;
     }
 
     form>p>input{
-        width: 90%;
+        width: 89%;
+    }
+
+    #forgpass{
+        width: 327px;
+        background-position: 240px 13px;
     }
 }
